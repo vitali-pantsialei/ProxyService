@@ -13,7 +13,7 @@ namespace StubService
     public interface IToDoService
     {
         [OperationContract]
-        Task<List<DTO.ToDoItem>> GetTodoList(int userId);
+        List<DTO.ToDoItem> GetTodoList(int userId);
 
         [OperationContract]
         void UpdateToDoItem(DTO.ToDoItem todo);
@@ -23,5 +23,8 @@ namespace StubService
 
         [OperationContract]
         void DeleteToDoItem(int todoItemId);
+
+        [OperationContract]
+        DTO.ToDoItem GetById(int id);
     }
 }

@@ -22,7 +22,7 @@ namespace StubService
             manager = new ServiceReference.ToDoManagerClient();
         }
 
-        public async Task<List<DTO.ToDoItem>> GetTodoList(int userId)
+        public List<DTO.ToDoItem> GetTodoList(int userId)
         {
             List<DTO.ToDoItem> list = manager.GetTodoList(userId).Select(i =>
             {
@@ -76,7 +76,7 @@ namespace StubService
             return list;
         }
 
-        public async void UpdateToDoItem(DTO.ToDoItem todo)
+        public void UpdateToDoItem(DTO.ToDoItem todo)
         {
             ToDoItemEF item = context.Set<ToDoItemEF>().FirstOrDefault(t => t.ToDoId == todo.ToDoId);
             if (item != null)
@@ -94,7 +94,7 @@ namespace StubService
             context.SaveChangesAsync();
         }
 
-        public async void DeleteToDoItem(int todoItemId)
+        public void DeleteToDoItem(int todoItemId)
         {
             DeletingId del = new DeletingId() {
                 ToDoId = todoItemId
@@ -106,7 +106,7 @@ namespace StubService
             context.SaveChangesAsync();
         }
 
-        public async void CreateToDoItem(DTO.ToDoItem todo)
+        public void CreateToDoItem(DTO.ToDoItem todo)
         {
             ToDoItemEF item = new ToDoItemEF()
             {
@@ -122,6 +122,21 @@ namespace StubService
             manager.CreateToDoItem(GetManagerToDoItem(todo));
 
             context.SaveChangesAsync();
+        }
+
+        public DTO.ToDoItem GetById(int id)
+        {
+            var item = context.Set<ToDoItemEF>().FirstOrDefault(i => i.ToDoId == id);
+            if (item != null)
+                return null;
+            else
+                return new DTO.ToDoItem()
+                {
+                    IsCompleted = item.IsCompleted,
+                    Name = item.Name,
+                    ToDoId = item.ToDoId,
+                    UserId = item.UserId
+                };
         }
 
         public static ToDoManagerService.Entities.ToDoItem GetManagerToDoItem(DTO.ToDoItem item)

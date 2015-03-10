@@ -12,3 +12,17 @@ C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubSe
 C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\obj\Debug\StubService.pdb
 C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\DTO.dll
 C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\DTO.pdb
+D:\Vitali_Pantsialei\StubService\StubService\bin\StubService.dll.config
+D:\Vitali_Pantsialei\StubService\StubService\bin\StubService.dll
+D:\Vitali_Pantsialei\StubService\StubService\bin\StubService.pdb
+D:\Vitali_Pantsialei\StubService\StubService\bin\DTO.dll
+D:\Vitali_Pantsialei\StubService\StubService\bin\EntityFramework.dll
+D:\Vitali_Pantsialei\StubService\StubService\bin\EntityFramework.SqlServer.dll
+D:\Vitali_Pantsialei\StubService\StubService\bin\ToDoManagerService.dll
+D:\Vitali_Pantsialei\StubService\StubService\bin\DTO.pdb
+D:\Vitali_Pantsialei\StubService\StubService\bin\EntityFramework.xml
+D:\Vitali_Pantsialei\StubService\StubService\bin\EntityFramework.SqlServer.xml
+D:\Vitali_Pantsialei\StubService\StubService\bin\ToDoManagerService.pdb
+D:\Vitali_Pantsialei\StubService\StubService\obj\Debug\StubService.csprojResolveAssemblyReference.cache
+D:\Vitali_Pantsialei\StubService\StubService\obj\Debug\StubService.dll
+D:\Vitali_Pantsialei\StubService\StubService\obj\Debug\StubService.pdb
