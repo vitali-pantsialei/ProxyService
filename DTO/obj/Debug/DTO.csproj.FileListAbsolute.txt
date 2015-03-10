@@ -1,0 +1,5 @@
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\DTO\bin\Debug\DTO.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\DTO\bin\Debug\DTO.pdb
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\DTO\obj\Debug\DTO.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\DTO\obj\Debug\DTO.pdb

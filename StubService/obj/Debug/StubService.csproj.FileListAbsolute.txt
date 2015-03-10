@@ -1,0 +1,14 @@
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\obj\Debug\StubService.csprojResolveAssemblyReference.cache
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\StubService.dll.config
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\StubService.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\StubService.pdb
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\EntityFramework.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\EntityFramework.SqlServer.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\ToDoManagerService.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\EntityFramework.xml
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\EntityFramework.SqlServer.xml
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\ToDoManagerService.pdb
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\obj\Debug\StubService.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\obj\Debug\StubService.pdb
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\DTO.dll
+C:\Users\Виталий\Documents\Visual Studio 2013\Projects\StubService\StubService\bin\DTO.pdb
